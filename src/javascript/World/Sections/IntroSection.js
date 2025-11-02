@@ -165,7 +165,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introABase.scene,
             collision: this.resources.items.introACollision.scene,
-            offset: new THREE.Vector3(-4-1, -10, 0.5), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(-6+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -178,7 +178,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introKBase.scene,
             collision: this.resources.items.introKCollision.scene,
-            offset: new THREE.Vector3(-2.5-1, -10, 0.8), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(-5+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -190,7 +190,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introABase.scene, // Use the same base/collision
             collision: this.resources.items.introACollision.scene,
-            offset: new THREE.Vector3(-1-1, -10, 0.5), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(-4+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -203,7 +203,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introSBase.scene,
             collision: this.resources.items.introSCollision.scene,
-            offset: new THREE.Vector3(0.5-1, -10, 0.8), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(-3+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: -0.6, alpha: 0.4 },
             mass: 1.5,
@@ -215,7 +215,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introHBase.scene,
             collision: this.resources.items.introHCollision.scene,
-            offset: new THREE.Vector3(2-1, -10, 0.8), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(-2+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -228,7 +228,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introJBase.scene,
             collision: this.resources.items.introJCollision.scene,
-            offset: new THREE.Vector3(4.5-1, -10, 0.8), // Adjust X, Y coordinates (increased X for space)
+            offset: new THREE.Vector3(0+2, -8.5, 0), // Adjust X, Y coordinates (increased X for space)
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -240,7 +240,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introHBase.scene, // Use the same base/collision
             collision: this.resources.items.introHCollision.scene,
-            offset: new THREE.Vector3(6-1, -10, 0.6), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(1+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -253,7 +253,7 @@ export default class IntroSection {
             container: this.container,
             base: this.resources.items.introABase.scene, // Use the same base/collision
             collision: this.resources.items.introACollision.scene,
-            offset: new THREE.Vector3(7.5-1, -10, 0.5), // Adjust X, Y coordinates
+            offset: new THREE.Vector3(2+2, -8.5, 0), // Adjust X, Y coordinates
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,

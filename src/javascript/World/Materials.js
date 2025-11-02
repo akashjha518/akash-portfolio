@@ -53,6 +53,12 @@ export default class Materials {
             uIndirectColor: null
         }
 
+        // Add IndiaGate material
+        this.shades.items.indiaGate = new MatcapMaterial();
+        this.shades.items.indiaGate.name = 'shadeIndiaGate'; // Follow naming convention
+        this.shades.items.indiaGate.uniforms.matcap.value = this.resources.items.matcapRedTexture;
+        this.items.indiaGate = this.shades.items.indiaGate; // Add to main items list
+
         // Add new custom material
         this.shades.items.myCustom = new MatcapMaterial();
         this.shades.items.myCustom.name = 'shadeMyCustom'; // Follow naming convention
