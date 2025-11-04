@@ -75,14 +75,36 @@ export default class ProjectsSection
                 name: 'Intelligent system for face mask detection and alert ',
                 imageSources:
                 [
-                    './models/projects/citrixRedbull/slideA.jpg',
-                    './models/projects/citrixRedbull/slideB.jpg',
-                    './models/projects/citrixRedbull/slideC.jpg'
+                    './models/projects/project1/slideA.jpg',
+                    './models/projects/project1/slideB.jpg',
+                    './models/projects/project1/slideC.jpg'
                 ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
+                floorTexture: this.resources.items.projectsproject1FloorTexture,
                 link:
                 {
                     href: 'https://aurobindo.du.ac.in/images/pdf/Journal%20of%20Research%20and%20Studies-Special%20Edition%202024.pdf',
+                    x: - 4.8,
+                    y: - 4.4,
+                    halfExtents:
+                    {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'Elite Fellowship Program ',
+                imageSources:
+                [
+                    './models/projects/project2/slideA.jpg',
+                    './models/projects/project2/slideB.jpg',
+                    './models/projects/project2/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsproject2FloorTexture,
+                link:
+                {
+                    
+                    href: 'https://akashjha518.github.io/Virtual_Lab/',
                     x: - 4.8,
                     y: - 4.4,
                     halfExtents:
