@@ -1,5 +1,7 @@
 # Akash's Personal Portfolio Website
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea3b05e9-6cc5-4167-95de-2e7025f2526e" />
+
 
 This repository contains the complete source code for my personal portfolio website, built to showcase my projects, skills, and professional journey as a developer.
 
